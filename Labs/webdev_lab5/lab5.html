@@ -7,29 +7,24 @@
 <body>
     <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
         <div>
-            <!-- First Name Input-->
             <h1>Volunteer Form</h1>
             <h2>My Info</h2>
             <label for="first_name_field">First name:</label>
             <input type="text" id="first_name_field" name="first_name_field">
         </div>
         <div>
-            <!-- Last Name Input -->
             <label for="last_name_field">Last name:</label>
             <input type="text" id="last_name_field" name="last_name_field">
         </div>
         <div>
-        <!-- Telephone Input -->  
             <label for="phone">Enter a phone number:</label>
             <input type="tel" id="phone" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
         </div>
         <div>
-        <!-- Email Input -->
             <label for="email">Enter your email:</label>
             <input type="email" id="email" name="email_field">
         </div>
         <div>
-        <!-- Gender Radio Buttons --> 
             <p>Gender:</p>
             <input type="radio" id="html" name="gender_field" value="Male">
             <label for="html">Male</label>
@@ -37,7 +32,6 @@
             <label for="css">Female</label>
         </div>
         <div>
-        <!-- Age Dropdown Menu -->
             <label for="Age">Age:</label>
             <select id="Age" name="age_field">
                 <option value="under-18">under 18</option>
@@ -45,7 +39,6 @@
             </select>
         </div>
         <div>
-        <!-- Days Available Checkboxes -->
             <p>My Availability:</p>
             <p><strong>Days Available:</strong></p>
             <input type="checkbox" id="Sunday" name="available_field[]" value="Sunday">
@@ -64,14 +57,11 @@
             <label for="Saturday"> Saturday</label>
         </div>
         <div>
-            <!-- Comment Box -->
             <label for="comment"><strong>Comments:</strong></label>
             <textarea id="comment" name="comments_field" rows="4" cols="50"></textarea>
         </div>
-        <!-- Submit Button -->
-        <input type="submit" value="Submit Query">
-        <!-- Hidden Area -->
-        <input type="hidden" id="custId" name="hidden_field" value="Jonathan Luna">
+            <input type="submit" value="Submit Query">
+            <input type="hidden" id="custId" name="hidden_field" value="Jonathan Luna">
     </form>
 </body>
 </html>
