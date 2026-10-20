@@ -21,7 +21,7 @@
 }
 
 audio {
-  filter: sepia(100%) hue-rotate(180deg) saturate(500%);
+  filter: sepia(100%) hue-rotate(90deg) saturate(500%);
   border-radius: 50px; 
   width: 300px;
 }
