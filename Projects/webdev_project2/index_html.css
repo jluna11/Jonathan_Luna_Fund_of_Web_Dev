@@ -32,5 +32,6 @@ a {
 
 body {
   background-color: #bebebe; 
-  color: #3e1b1b;            
+  color: #3e1b1b;   
+  background-image: url('wood_grain.jpg')         
 }
