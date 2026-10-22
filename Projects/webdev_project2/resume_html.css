@@ -15,3 +15,8 @@ body {
   background-image: url('prof_background.jpg');
   background-size: cover;  
 }
+
+.Style_4{
+  border: 5px solid #333333;
+  border-radius: 8px;
+}
