@@ -32,5 +32,6 @@ a {
 
 body {
   color: #502020;   
-  background-image: url('wood_grain.jpg')        
+  background-image: url('wood_grain.jpg');
+  background-size: cover;  
 }
