@@ -20,3 +20,7 @@ body {
   border: 5px solid #333333;
   border-radius: 18px;
 }
+
+a {
+  color: #583faa; 
+}
