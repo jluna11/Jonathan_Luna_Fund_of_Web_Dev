@@ -10,3 +10,8 @@
   font-family: 'Times New Roman', serif;
 }
 
+body {
+  color: #4f4f4f;   
+  background-image: url('wood_grain.jpg');
+  background-size: cover;  
+}
