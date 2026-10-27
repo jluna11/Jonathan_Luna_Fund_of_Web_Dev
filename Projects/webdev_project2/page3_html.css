@@ -36,7 +36,7 @@ a {
 
 nav {
   background-color: rgb(103, 85, 74);
-  padding: 10px;
+  padding: 5px;
 }
 
 main {
@@ -44,7 +44,7 @@ main {
 }
 
 nav a {
-  color: white;
+  color: rgb(140, 123, 123);
   text-decoration: none;
   margin-right: 10px;
 }
