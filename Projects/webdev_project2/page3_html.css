@@ -13,3 +13,13 @@
 .Style_4{
   font-family: 'McLaren', sans-serif;
 }
+
+body {
+  color: #483d31;   
+  background-image: url('treeleaf.jpg');
+  background-size: cover;  
+}
+
+a {
+  color: #563030; 
+}
