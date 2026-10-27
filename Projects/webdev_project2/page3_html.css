@@ -15,11 +15,16 @@
 }
 
 body {
-  color: #2e5c35;   
+  color: rgb(64, 119, 80);  
   background-image: url('treeleaf.jpg');
   background-size: cover;  
 }
 
+.Style_5{
+  border: 5px solid #736255;
+  border-radius: 18px;
+}
+
 a {
-  color: #65574e; 
+  color: rgb(103, 85, 74); 
 }
