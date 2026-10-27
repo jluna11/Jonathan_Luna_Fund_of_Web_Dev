@@ -16,6 +16,7 @@
 
 body {
   color: rgb(64, 119, 80);  
+  font-size: 1rem;
   background-image: url('treeleaf.jpg');
   background-size: cover;  
 }
