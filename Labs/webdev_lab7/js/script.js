@@ -6,7 +6,7 @@ function init(){
 
     button.addEventListener('click', function () {
     const message = input.value;
-    alert('This is your message!: ' + message);
+    alert('This is the message you put: ' + message);
     output.textContent = message;
   });
 }
