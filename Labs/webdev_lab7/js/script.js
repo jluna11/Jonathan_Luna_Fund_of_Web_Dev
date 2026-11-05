@@ -4,6 +4,8 @@ function init(){
   const button = document.getElementById('entrybutton');
   const output = document.getElementById('textoutput');
 
+    button.addEventListener('click', function () {
+    
 
 
 window.addEventListener('load', init);
