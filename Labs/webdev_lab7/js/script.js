@@ -9,6 +9,6 @@ function init(){
     alert('This is your message!: ' + message);
     output.textContent = message;
   });
+}
 
 window.addEventListener('load', init);
-}
