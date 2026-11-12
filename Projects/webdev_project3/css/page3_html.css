@@ -1,0 +1,50 @@
+.Style_1{
+  font-family: 'Shojumaru';
+  font-size: 2rem;
+}
+
+.Style_2{
+  font-family: 'Wendy One', sans-serif;
+  font-size: 1.5rem;
+}
+
+.Style_3{
+  font-family: 'REM';
+  font-size: 1.25rem;
+}
+
+.Style_4{
+  font-family: 'McLaren', sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  color: rgb(64, 119, 80);  
+  font-size: 1rem;
+  background-image: url('images/treeleaf.jpg');
+  background-size: cover;  
+}
+
+.Style_5{
+  border: 8px solid #736255;
+  border-radius: 24px;
+}
+
+a {
+  color: rgb(103, 85, 74); 
+}
+
+nav {
+  background-color: rgb(103, 85, 74);
+  padding: 5px;
+}
+
+main {
+  padding: 1rem;
+}
+
+nav a {
+  color: rgb(233, 233, 233);
+  text-decoration: none;
+  margin-right: 10px;
+}

@@ -1,0 +1,26 @@
+.Style_1{
+  font-family: 'Merienda', cursive, serif;
+}
+
+.Style_2{
+  font-family: 'Calibri', sans-serif;
+}
+
+.Style_3{
+  font-family: 'Times New Roman', serif;
+}
+
+body {
+  color: #000000;   
+  background-image: url('images/prof_background.jpg');
+  background-size: cover;  
+}
+
+.Style_4{
+  border: 5px solid #333333;
+  border-radius: 18px;
+}
+
+a {
+  color: #583faa; 
+}
