@@ -47,15 +47,15 @@ audio {
 
 @media (min-width: 600px) {
   body {
-    padding: 1.5rem 2rem;
+    padding: 1.2rem 1.5rem;
   }
 
   .Style_4 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   audio {
-    max-width: 400px;
+    max-width: 350px;
   }
 }
 
@@ -63,7 +63,7 @@ audio {
   body {
     max-width: 960px;
     margin: 0 auto;
-    padding: 2rem 3rem;
+    padding: 1.5rem 2.5rem;
   }
 
   .Style_4 {
@@ -71,6 +71,6 @@ audio {
   }
 
   audio {
-    max-width: 480px;
+    max-width: 450px;
   }
 }
