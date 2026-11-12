@@ -1,13 +1,13 @@
 .Style_1{
   font-family: 'Google Sans', sans-serif;
   font-size: 2rem;
-  color: rgb(224, 203, 14);
+  color: rgb(224, 49, 26);
 }
 
 .Style_2{
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
-  color: rgb(49, 69, 220);
+  color: rgb(186, 169, 34);
 }
 
 .Style_3{
@@ -27,5 +27,5 @@ body {
 }
 
 a {
-  color: rgb(211, 38, 25); 
+  color: rgb(25, 31, 211); 
 }
