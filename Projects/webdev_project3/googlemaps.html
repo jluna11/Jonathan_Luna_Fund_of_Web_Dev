@@ -42,20 +42,32 @@
               title: "Willis Tower",
               position: { lat: 41.879052140982246, lng: -87.63586125582326 },
               image: "images/City.png",
+              sidewalkPath: [
+                { lat: 41.87882, lng: -87.63622 },
+                { lat: 41.87882, lng: -87.6355 },
+              ],
             },
             {
               title: "The Art Institute of Chicago",
               position: { lat: 41.87974632460261, lng: -87.62231622105489 },
               image: "images/Museum.png",
+              sidewalkPath: [
+                { lat: 41.87945, lng: -87.62275 },
+                { lat: 41.87945, lng: -87.622 },
+              ],
             },
             {
               title: "The Chicago Theater",
               position: { lat: 41.88547423125778, lng: -87.62768516869274 },
               image: "images/Masks.png",
+              sidewalkPath: [
+                { lat: 41.88515, lng: -87.62815 },
+                { lat: 41.88515, lng: -87.62725 },
+              ],
             },
           ];
 
-          locations.forEach(({ title, position, image }) => {
+          locations.forEach(({ title, position, image, sidewalkPath }) => {
             new google.maps.Marker({
               map,
               title,
@@ -64,6 +76,15 @@
                 url: image,
                 scaledSize: new google.maps.Size(48, 48),
               },
+            });
+
+            new google.maps.Polyline({
+              map,
+              path: sidewalkPath,
+              strokeColor: "#FFD700",
+              strokeOpacity: 1,
+              strokeWeight: 4,
+              clickable: false,
             });
           });
         }
