@@ -6,20 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="googlemaps.css">
   <style>
-    #canvas {
-      width: 700px;
+    #map {
+      width: 100%;
       height: 500px;
       background-color: #ccc;
       margin: 30px auto;
-      }
-</style>
+    }
+  </style>
 	<title>Google Maps API</title>
 </head>
 <body>
     <!-- CSS file has roughly six different styles. Not all are named similarily for self-explanatory reasons. They are Style_1 through Style_4 and rest follow a necessary naming convention -->
   <p><strong>Name:</strong> Jonathan Luna</p>
   <p><strong>Due Date:</strong> 11/24/2026</p>
-  <div id="map" style="width:100%;height:500px;"> </div>
+  <div id="map"></div>
   <!-- This script tag should go into a JS file -->
     <ul>
       <li><a href="index.html"><strong>index.html</strong></a></li>
@@ -30,17 +30,17 @@
     <h1 class="Style_1">Google Maps API Page</h1>
       <p class="Style_2"><strong>Hello!</strong> This is my Google Maps API page. I have included a fun interactable involving Google Maps below! Hover over the images to learn more about them!</p>
       <script>
-          function initMap(){
-          <!-- This is the latitude and longitude for Chicago -->
+        function initMap() {
           const center = { lat: 41.8781, lng: -87.6298 };
-          const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 12,
-          center: center,
+          new google.maps.Map(document.getElementById("map"), {
+            zoom: 12,
+            center: center,
           });
-            }
-         google.maps.event.addDomListener(window, 'load', initMap);
-</script>
-<script src="AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+        }
+      </script>
+      <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&amp;callback=initMap&amp;loading=async">
+      </script>
     <button type="button" id="contact-button">Display Contact Info</button>
     <script src="javascript/javascript.js"></script>
 </body>
