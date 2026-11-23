@@ -67,6 +67,24 @@
             },
           ];
 
+          const highwayPath = [
+            { lat: 41.8872, lng: -87.6168 },
+            { lat: 41.8840, lng: -87.6181 },
+            { lat: 41.8810, lng: -87.6188 },
+            { lat: 41.8778, lng: -87.6196 },
+            { lat: 41.8738, lng: -87.6208 },
+          ];
+
+          new google.maps.Polyline({
+            map,
+            path: highwayPath,
+            strokeColor: "#FFD700",
+            strokeOpacity: 1,
+            strokeWeight: 7,
+            geodesic: true,
+            clickable: false,
+          });
+
           locations.forEach(({ title, position, image, sidewalkPath }) => {
             new google.maps.Marker({
               map,
@@ -92,7 +110,7 @@
       <script async
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&amp;callback=initMap&amp;loading=async">
       </script>
-      <p class="Style_3">The yellow lines--more-so blocks given how they look--represent some of the more major sidewalks around each location.</p>
+      <p class="Style_3">The yellow lines highlight nearby sidewalks and a short section of US-41 (Lake Shore Drive), all kept close to the three highlighted locations. </p>
     <button type="button" id="contact-button">Display Contact Info</button>
     <script src="javascript/javascript.js"></script>
 </body>
