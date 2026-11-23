@@ -37,6 +37,18 @@
             center: center,
           });
 
+          new google.maps.Circle({
+            map,
+            center: { lat: 41.88087882808102, lng: -87.62687532698791 },
+            radius: 200,
+            strokeColor: "#FFD700",
+            strokeOpacity: 1,
+            strokeWeight: 4,
+            fillColor: "#FFD700",
+            fillOpacity: 0,
+            clickable: false,
+          });
+
           const locations = [
             {
               title: "Willis Tower",
@@ -109,8 +121,8 @@
       <script async
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&amp;callback=initMap&amp;loading=async">
       </script>
-      <p class="Style_3">Three unique locations are highlighted with unique images and yellow lines. The yellow polyline mark a brief section of Lake Shore Drive and my favorite hotel of Chicago, the Hilton Hotel, has been circled, too.</p>
-      <p class="Style_3"> P.S. - I had trouble with the polyline implementation--what you see is the best I could do. Apologies.</p>
+      <p class="Style_3">Three unique locations are highlighted with unique images and yellow lines. The yellow polyline mark a brief section of Lake Shore Drive and my favorite hotel of Chicago, The Hilton Hotel, has been circled, too.</p>
+      <p class="Style_4"> P.S. - I had trouble with the polyline implementation--what you see is the best I could do. Apologies.</p>
     <button type="button" id="contact-button">Display Contact Information</button>
     <script src="javascript/javascript.js"></script>
 </body>
