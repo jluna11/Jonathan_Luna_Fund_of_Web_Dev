@@ -67,15 +67,20 @@
             },
           ];
 
-          new google.maps.Circle({
+          new google.maps.Polyline({
             map,
-            center: { lat: 41.88078297216349, lng: -87.62696115767069 },
-            radius: 225,
+            path: [
+              { lat: 41.8798, lng: -87.6173 },
+              { lat: 41.8775, lng: -87.61725 },
+              { lat: 41.8752, lng: -87.6172 },
+              { lat: 41.8729, lng: -87.6172 },
+              { lat: 41.8706, lng: -87.61725 },
+              { lat: 41.8683, lng: -87.6173 },
+              { lat: 41.8662, lng: -87.6173 },
+            ],
             strokeColor: "#FFD700",
             strokeOpacity: 1,
-            strokeWeight: 5,
-            fillColor: "#FFD700",
-            fillOpacity: 0,
+            strokeWeight: 6,
             clickable: false,
           });
 
@@ -104,8 +109,8 @@
       <script async
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&amp;callback=initMap&amp;loading=async">
       </script>
-      <p class="Style_3">The yellow lines highlight nearby sidewalks, and the hollow yellow circle marks a central point near the three highlighted locations. </p>
-    <button type="button" id="contact-button">Display Contact Info</button>
+      <p class="Style_3">Three unique locations are highlighted with unique images and yellow lines. The yellow polyline mark a brief section of Lake Shore Drive and my favorite hotel of Chicago, the Hilton Hotel, has been circled, too.</p>
+    <button type="button" id="contact-button">Display Contact Information</button>
     <script src="javascript/javascript.js"></script>
 </body>
 
